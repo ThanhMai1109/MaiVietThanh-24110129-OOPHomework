@@ -2,7 +2,8 @@
 
 Repo này chứa các bài tập thực hành về **Lập trình Hướng Đối Tượng (OOP) bằng C++**.  
 Mỗi bài được cài đặt trong một file `.cpp` riêng biệt.
-Phần bài viết này có sự hỗ trợ chủa ChatGPT để có thể viết và tạo Github này.
+
+Phần bài viết này có sự hỗ trợ chủa **ChatGPT** để có thể viết và tạo Github này.
 
 ---
 
