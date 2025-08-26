@@ -23,7 +23,8 @@ public:
 int main()
 {
     Car car1("Toyota", 2020);
-    Car car2("Vinfast", 2025)
+    Car car2("Vinfast", 2025);
     car1.displayInfo();
     car2.displayInfo();
+
 }
