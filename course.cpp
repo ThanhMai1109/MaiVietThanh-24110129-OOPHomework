@@ -24,6 +24,16 @@ public:
         return credits > 3;
     }
 
+    void nhap()
+    {
+        cout << "Name of the course" << endl;
+        cin >> courseName;
+        cout << "Course code" << endl;
+        cin >> courseCode;
+        cout << "Credits" << endl;
+        cin >> credits;
+    }
+
     // Mở rộng
     bool checkLab()
     {
@@ -34,9 +44,7 @@ public:
 int main()
 {
     Course course1;
-    course1.courseName = "Object Oriented Programming";
-    course1.courseCode = "CS202";
-    course1.credits = 4;
+    course1.nhap();
     course1.displayInfo();
 
     if (course1.isHighCredit())
@@ -47,7 +55,7 @@ int main()
     {
         cout << "This is not a high credit course." << endl;
     }
-    
+
     if (course1.checkLab())
     {
         cout << "Không yêu cầu sử dụng lab" << endl;
